@@ -1,7 +1,7 @@
 import java.util.concurrent.ThreadLocalRandom;
 
 /**
- * Initializes a walker object.
+ * Initializes a walker object. Takes a string as a name and a value for its stride length.
  */
 
 public class Walker {

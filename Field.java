@@ -2,7 +2,7 @@ import java.util.HashMap;
 import java.util.NoSuchElementException;
 
 /**
- * Created by Cameron on 11/14/2015.
+ * Initializes the field which contains all walkers and allows for comparisons between them.
  */
 public class Field {
 
