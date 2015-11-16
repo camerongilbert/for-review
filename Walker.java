@@ -41,6 +41,7 @@ public class Walker {
 
     }
 
+    /* takes a step in a random direction in any angle from 0 to 360 degrees */
     public void takeStep(){
         int rand = ThreadLocalRandom.current().nextInt(0,360);
         double angle = rand * Math.PI / 180.0;

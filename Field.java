@@ -70,7 +70,9 @@ public class Field {
             Stallman.takeStep();
         }
 
-        Shiro.takeStep();
+        for (int j = 0; j < 1000; j++){
+            Shiro.takeStep();
+        }
 
         System.out.println(USCCampus.getWalkerDist("Kaisen", "Stallman"));
         System.out.println(USCCampus.getOriginDist("Shiro"));
